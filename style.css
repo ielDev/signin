@@ -1,0 +1,88 @@
+html, body {
+    margin: 0; 
+    height: 100%; 
+    overflow: hidden
+}
+
+body {
+    background-color: #C9DDFF;
+}
+
+.mainCtr{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.inputCtr{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.signinTitle{
+    margin-bottom: 4rem;
+    font-size: 4rem;
+    font-family: 'Shrikhand';
+    color: #02567D;
+
+}
+
+.userCtr{
+    margin-bottom: 1.5rem;
+    border-radius: 10px;
+}
+
+.passCtr{
+    margin-bottom: 1rem;
+}
+
+input{
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    color: #B8D6F9;
+    border-radius: 40px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    background-color: #5462BF;
+}
+
+input[type=button]{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-bottom: 5px;
+}
+
+::placeholder {
+    color: #B8D6F9;
+}
+
+.forgotCtr{
+    font-family: "Open Sans", sans-serif;
+    color: #5462BF;
+    font-size: small;
+}
+
+a:link, a:visited{
+    color: #5462BF;
+}
+
+.waveBG {
+    height: 20vh;
+    width: 100vw;
+    overflow: visible;
+    transform: scale(2.2) translateX(-22px) translateY(-2px);
+    pointer-events: none;
+}
+
+
+
